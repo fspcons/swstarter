@@ -1,6 +1,6 @@
 # Star Wars API Search App
 
-Simple Star Wars API Fullstack exercise
+Simple Star Wars API Fullstack exercise.
 
 ## Requirements
 
@@ -9,7 +9,7 @@ Simple Star Wars API Fullstack exercise
 
 ## Running the app
 
-Simply do
+Simply do:
 
 ```bash
 make run
@@ -97,5 +97,5 @@ For the **INFRA** I've used:
 - Metrics include: 
     * top 5 queries
     * average request duration
-    * cached vs non-cached ratio,
+    * cached vs non-cached ratio
     * error vs success ratio
