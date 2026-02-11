@@ -1,5 +1,11 @@
 # Star Wars API Search App
 
+Simple Star Wars API Fullstack exercise
+
+## Requirements
+
+* Docker + Docker Compose
+* Linux OR Mac OS (for the make commands)
 
 ## Running the app
 
