@@ -64,6 +64,8 @@ For the **BACKEND** I've implemented these features:
 * **Redis Caching**
 
 * **Graceful Shutdown**
+  
+* **Rate-limiting (to match SWAPI restrictions)**
 
 For the **FRONTEND** I've implemented these features:
 
