@@ -54,7 +54,7 @@ I'm fond of **Clean Architecture** (Uncle Bob) and **Domain-Driven Design** (Eri
 | Layer         | Technology                                                 |
 | ------------- | ---------------------------------------------------------- |
 | Back-end      | PHP 8.3, Laravel 12, Predis                                |
-| Front-end     | React 18, TypeScript, React Router v6, Axios, SCSS Modules |
+| Front-end     | React 19, TypeScript, React Router v6, Axios, SCSS Modules |
 | Cache / Queue | Redis 7                                                    |
 | Database      | SQLite (metrics query logs)                                |
 | Server        | Nginx, PHP-FPM, Supervisord                                |
