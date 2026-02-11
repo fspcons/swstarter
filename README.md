@@ -79,7 +79,7 @@ For the **INFRA** I've used:
 
 * **Multi-stage Dockerfile**
 
-* **Nginx**             |
+* **Nginx**
 
 ## Metrics
 
