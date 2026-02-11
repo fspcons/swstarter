@@ -1,0 +1,15 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.headerLarge {
+  @include section-header;
+}
+
+.headerSmall {
+  @include section-header;
+  font-size: 14px;
+}
+
+.divider {
+  @include divider;
+}

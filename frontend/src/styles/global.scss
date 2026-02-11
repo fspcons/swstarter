@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $bg-page;
+  color: $text-black;
+  min-height: 100vh;
+}
+
+a {
+  color: $green-teal;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

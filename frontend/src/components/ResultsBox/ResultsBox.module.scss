@@ -1,0 +1,81 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.container {
+  @include card;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyState {
+  @include centered-state($spacing-xl 0);
+  flex: 1;
+  text-align: center;
+  gap: $spacing-xs;
+}
+
+.resultsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-md 0;
+  border-bottom: 1px solid $light-gray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.resultName {
+  @include label-text;
+  font-size: 14px;
+}
+
+.detailsButton {
+  @include button-teal(6px 16px, 11px);
+  white-space: nowrap;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-sm;
+  margin-top: $spacing-md;
+  padding-top: $spacing-md;
+  border-top: 1px solid $light-gray;
+}
+
+.pageButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid $pinkish-grey;
+  background-color: $white;
+  font-family: $font-family;
+  font-size: 13px;
+  font-weight: 600;
+  color: $text-black;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $green-teal;
+    color: $green-teal;
+  }
+}
+
+.pageButtonActive {
+  background-color: $green-teal;
+  border-color: $green-teal;
+  color: $white;
+
+  &:hover {
+    background-color: $green-teal-hover;
+  }
+}

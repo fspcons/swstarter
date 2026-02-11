@@ -1,0 +1,31 @@
+// Colors extracted from base.css + screenshots
+$green-teal: #00b360;
+$green-teal-hover: #089954;
+$pinkish-grey: #c8c8c8;
+$warm-grey-75: rgba(128, 128, 128, 0.75);
+$light-gray: #e0e0e0;
+$text-dark: #383838;
+$text-black: #000;
+$bg-page: #e8e8e8;
+$white: #fff;
+$error-red: #e74c3c;
+$info-blue: #3498db;
+
+// Typography
+$font-family: 'Montserrat', sans-serif;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Borders
+$radius-sm: 2px;
+$radius-md: 4px;
+$radius-pill: 20px;
+
+// Shadows
+$shadow-card: 0 1px 2px 0 $warm-grey-75;
+$shadow-inset: inset 0 1px 3px 0 $warm-grey-75;

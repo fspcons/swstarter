@@ -1,0 +1,30 @@
+@use '../../styles/variables' as *;
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: $white;
+  border-bottom: 2px solid $green-teal;
+  padding: $spacing-sm $spacing-lg;
+  text-align: center;
+}
+
+.logo {
+  font-family: $font-family;
+  font-size: 18px;
+  font-weight: 700;
+  color: $green-teal;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  padding: $spacing-xl;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}

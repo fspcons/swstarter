@@ -1,0 +1,25 @@
+@use '../styles/variables' as *;
+
+.searchPage {
+  display: flex;
+  gap: $spacing-lg;
+  align-items: flex-start;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+
+.searchColumn {
+  flex: 0 0 auto;
+  width: 340px;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
+
+.resultsColumn {
+  flex: 1;
+  min-width: 0;
+}

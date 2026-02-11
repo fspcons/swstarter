@@ -1,0 +1,31 @@
+@use '../../styles/variables' as *;
+
+.list {
+  font-family: $font-family;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.listInline {
+  display: inline;
+}
+
+.link {
+  color: $green-teal;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.separator {
+  color: $text-black;
+}
+
+.noLinks {
+  color: $pinkish-grey;
+  font-style: italic;
+  font-family: $font-family;
+  font-size: 13px;
+}
