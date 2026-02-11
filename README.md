@@ -45,11 +45,11 @@ make lint-fe
 | `make logs`    | Follow live logs                      |
 | `make clean`   | Wipe volumes and rebuild from scratch |
 
-#### Key Design Decisions
+## Key Design Decisions
 
 I'm fond of **Clean Architecture** (Uncle Bob) and **Domain-Driven Design** (Eric Evans) principles so, I've tried to follow those in this exercise. 
 
-## Tech Stack
+#### Tech Stack
 
 | Layer         | Technology                                                 |
 | ------------- | ---------------------------------------------------------- |
@@ -70,7 +70,7 @@ For the **BACKEND** I've implemented these features:
 * **Redis Caching**
 
 * **Graceful Shutdown**
-  
+
 * **Rate-limiting (to match SWAPI restrictions)**
 
 For the **FRONTEND** I've implemented these features:
